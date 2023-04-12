@@ -3,8 +3,7 @@ import datetime
 import wikipedia
 import openai
 
-# openai.api_key = 'YOUR_API_KEY'
-openai.api_key = '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'
+openai.api_key = 'YOUR_API_KEY'
 
 '''
 We first define a policy as the system message for GPT-3.5-turbo. We can also append a few examples to help agent understand.
